@@ -1,0 +1,28 @@
+﻿.hidden {
+    display:none;
+}
+
+#passwordExpired {
+    color:red;
+    font-weight:bold;
+}
+
+#passwordInformation div {
+    margin:10px 0px 10px 0px
+}
+
+label {
+    font-weight: bold;
+}
+
+.buttonContainer {
+    margin-bottom:10px
+}
+
+#expirationTime {
+    color:red;
+}
+
+#password {
+    color:green;
+}

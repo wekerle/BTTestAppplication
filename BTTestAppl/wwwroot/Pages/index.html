@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+</head>
+<body>
+    <div class="text-center">
+        <h1 class="display-4">One-time password generation</h1>
+        <div>
+            <label for="memberid">Member Id:</label>
+            <input type="text" name="memberid" id="memberId">
+        </div>
+        <br>
+        <div class="buttonContainer">
+            <button id="generatePassword" type="button">Generate one-time password</button>
+        </div>       
+        <div id="passwordInformation">
+            <div class="hidden" id="timeContent"><strong>Your password expire in: </strong><span id="expirationTime"></span></div>
+            <div class="hidden" id="passwordContent"><strong>Your password is: </strong><span id="password"></span></div>
+            <div class="hidden" id="passwordExpired">Your password had expired</div>
+        </div>
+        In order to use your password please<a href="../Pages/login.html" target="_blank"> go to login page</a>
+    </div>
+</body>
+</html>
+
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/index.js"></script>
